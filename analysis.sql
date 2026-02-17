@@ -27,3 +27,32 @@ SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,
 FROM sales
 GROUP BY month
 ORDER BY month;
+-- Additional Analysis
+-- Total Sales
+SELECT SUM(Sales_Amount) AS total_sales
+FROM sales_data;
+
+-- Sales by Region
+SELECT Region, SUM(Sales_Amount) AS total_sales
+FROM sales_data
+GROUP BY Region
+ORDER BY total_sales DESC;
+
+-- Top 5 Sales Representatives
+SELECT Sales_Rep, SUM(Sales_Amount) AS total_sales
+FROM sales_data
+GROUP BY Sales_Rep
+ORDER BY total_sales DESC
+LIMIT 5;
+
+-- Monthly Sales Trend
+SELECT 
+    DATE_FORMAT(Sale_Date, '%Y-%m') AS month,
+    SUM(Sales_Amount) AS monthly_sales
+FROM sales_data
+GROUP BY month
+ORDER BY month;
+
+-- Average Sales per Transaction
+SELECT AVG(Sales_Amount) AS avg_sales
+FROM sales_data;
