@@ -1,64 +1,57 @@
-# 📊 SQL Customer Sales Analysis
+# 📊 Customer Sales Analysis (SQL + Power BI)
 
 ## 📌 Project Overview
-This project analyzes customer sales data using SQL to uncover key business insights, including revenue trends, top-performing products, and customer behavior.
-
-The goal is to demonstrate how raw data can be transformed into actionable insights for decision-making.
+This project analyzes customer sales data to identify key trends, top-performing products, and regional performance. The goal is to support data-driven business decisions.
 
 ---
 
-## 🛠️ Tools & Technologies
-- SQL
-- CSV Dataset
-- Data Analysis Techniques
+## 🛠 Tools Used
+- SQL (Data Analysis)
+- Power BI (Data Visualization)
+- Excel / CSV Dataset
 
 ---
 
 ## 📂 Dataset
-The dataset contains simulated sales transactions including:
-- Product ID
-- Sales Representative
-- Region
-- Sales Amount
-- Date
-
----
-
-## 🔍 Key Analysis Performed
-
-### 1. Total Revenue
-Calculated total sales across all transactions.
-
-### 2. Sales by Region
-Identified which regions generate the highest revenue.
-
-### 3. Top Sales Representatives
-Ranked top-performing sales reps based on total sales.
-
-### 4. Monthly Sales Trend
-Analyzed how sales change over time.
-
-### 5. Average Transaction Value
-Calculated average sales per transaction.
+- Sales transactions dataset including:
+  - Product ID
+  - Sales Amount
+  - Region
+  - Product Category
+  - Sales Date
 
 ---
 
 ## 📈 Key Insights
-- Identified top-performing regions contributing most of the revenue
-- Found high-value sales representatives driving business growth
-- Observed monthly trends and seasonal patterns
-- Highlighted opportunities for performance improvement
+
+### 🔹 Total Sales by Region
+- North region has the highest sales
+- South region has the lowest performance
+
+### 🔹 Sales by Product Category
+- Clothing and Electronics are top-performing categories
+- Food category shows stable but lower sales
+
+### 🔹 Monthly Sales Trend
+- Sales fluctuate across months
+- Peak performance observed mid-year
+
+---
+
+## 📊 Dashboard Preview
+See the PDF file for full dashboard:
+👉 `Customer_Sales_Analysis_Dashboard.pdf`
+
+---
+
+## 💡 Business Value
+- Helps identify top regions and products
+- Supports better inventory and sales strategy
+- Enables data-driven decision making
 
 ---
 
 ## 🚀 Future Improvements
-- Build Power BI dashboard for visualization
-- Create Excel dashboard
-- Automate reporting process using Python
-
----
-
-## 👤 Author
-**Mo Fard**  
-Data Analyst | SQL | Python | Power BI  
-🔗 LinkedIn: http://linkedin.com/in/mo-fard-5abb92b9
+- Add customer segmentation
+- Build predictive sales model
+- Connect to real-time data source
